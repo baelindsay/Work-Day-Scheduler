@@ -4,9 +4,8 @@ Coding BootCamp: 5th Module Challange
 # Deployed Application //link add here
 
 ## Description
-We are given starter code and with the starter code I have added more functions.
+A clean and simple 9-5 hourly work day scheduler with adorable paw icon save buttons. 
 
-# User Story
 
 # Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
@@ -23,8 +22,13 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-# Usage 
+
+# GIF of Application
+
+
+
 
 # Results
+I learned that the Date Object is to be feared and I am grateful that other brilliant humans were able to compile and code the data library prior the start of my coding journey. 
+I also solidified my knowledge on local storage through this project as well! 
 
-# Work-Day-Scheduler

@@ -23,11 +23,11 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.elucidation{
   white-space: pre-wrap;
 }
 
-.time-block{
+.time_chunk{
   text-align: center;
   border-radius: 15px;
 }
@@ -59,15 +59,18 @@ textarea{
   color: white;
 }
 
-.saveBtn {
+.savePaw {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: white;
+  color: black;
+}
+
+.savePaw:hover {
+  font-size: 30px;
+  transition: all .3s ease-in-out;
+  background-color: #f07217;
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}

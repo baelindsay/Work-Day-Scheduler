@@ -1,16 +1,18 @@
 // Demonstration of today's date, day, & current time
-var todayDate = moment().format('dddd, MMM Do YYYY');
-$("#currentDay").html(todayDate);
+var Today = moment().format("ddd MMM Do, YYYY, hh:mm");
+$('#currentDay').text(Today);
+
 
 $(document).ready(function () {
-    // saveSTUD on click listener 
-    $(".saveSTUD").on("click", function () {
+    // savePaw on click listener 
+    $(".savePaw").on("click", function () {
         // Retrieve closeby data of the elucidation section in JQuery
         var text = $(this).siblings(".elucidation").val();
         var time = $(this).parent().attr("id");
         // save text data in local storage !
         localStorage.setItem(time,text);
     })
+
 
     function trackTime() {
         // obtain current number of hours
@@ -48,11 +50,11 @@ $(document).ready(function () {
     $("#hour10 .elucidation").val(localStorage.getItem("hour10"));
     $("#hour11 .elucidation").val(localStorage.getItem("hour11"));
     $("#hour12 .elucidation").val(localStorage.getItem("hour12"));
-    $("#hour1 .elucidation").val(localStorage.getItem("hour1"));
-    $("#hour2 .elucidation").val(localStorage.getItem("hour2"));
-    $("#hour3 .elucidation").val(localStorage.getItem("hour3"));
-    $("#hour4 .elucidation").val(localStorage.getItem("hour4"));
-    $("#hour5 .elucidation").val(localStorage.getItem("hour5"));
+    $("#hour13 .elucidation").val(localStorage.getItem("hour13"));
+    $("#hour14 .elucidation").val(localStorage.getItem("hour14"));
+    $("#hour15 .elucidation").val(localStorage.getItem("hour15"));
+    $("#hour16 .elucidation").val(localStorage.getItem("hour16"));
+    $("#hour17 .elucidation").val(localStorage.getItem("hour17"));
 
     trackTime();
-})
+})   
