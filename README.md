@@ -1,5 +1,6 @@
 # Work Day Scheduler 
-Coding BootCamp 6th Module Challange
+Coding BootCamp: 5th Module Challange
+
 # Deployed Application //link add here
 
 ## Description
